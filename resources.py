@@ -33,7 +33,7 @@ def get_character(number):
 actions = [
     {"title": "Pick up mushrooms", "desc": "Because it's nice and healthy.",
      "action": lambda: print("A lot of mushrooms!")},
-    {"title": "Enough of the forest, let's get out of here", "desc": "It's to moist in here.",
+    {"title": "Enough of the forest, let's get out of here", "desc": "It's too moist in here.",
      "action": get_scene_manager().next_scene},
     {"title": "Sunbathe", "desc": "Be careful not get a sunburn!",
      "action": lambda: print("Waaarm B~)")},
